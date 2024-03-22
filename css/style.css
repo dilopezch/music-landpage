@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+    --main-font: "M PLUS Code Latin", monospace;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    width: 100%;
+    height: 80px;
+}
+
+header img {
+    width: 120px;
+    margin: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color:#737373;
+    padding: 10px;
+}
+
+header a:last-child{
+    margin-right: 30px;
+}
+
