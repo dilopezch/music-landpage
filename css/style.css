@@ -3,36 +3,76 @@
     margin: 0;
 }
 
-
 :root{
     --main-font: "M PLUS Code Latin", monospace;
+    --main-color: #1D1D1D;
+    --light-gray: #737373; /*font color*/
+    --very-light-gray: #D9D9D9; /*icon color*/
 }
 
-body {
+html {
     font-family: var(--main-font);
+    background-color: var(--main-color);
+    font-size: 62.5%;
+}
+
+html a{
+    text-decoration: none;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #262626;
+    background-color: var(--main-color);
     width: 100%;
-    height: 80px;
+    height: 8rem;
 }
 
 header img {
-    width: 120px;
-    margin: 30px;
+    width: 12rem;
+    margin: 3rem;
 }
 
 header a{
-    text-decoration: none;
-    color:#737373;
-    padding: 10px;
+    color: var(--light-gray);
+    padding: 1rem;
+    font-size: 1.5rem;
 }
 
 header a:last-child{
-    margin-right: 30px;
+    margin-right: 3rem;
 }
+
+/*stream section*/
+.section-stream{
+    width: 50rem;
+    margin: 0 auto;
+
+;
+}
+
+.album-cover {
+    width: 45rem;
+    display: block;
+    margin: auto;
+}
+
+.stream-plataform {
+    color: var(--very-light-gray);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.3rem auto;
+    height: 4.2rem;
+    width: 43rem;
+    border:1px solid var(--light-gray);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    background-color: #404040;
+    opacity: 0.8;
+}
+
+
 
