@@ -46,16 +46,15 @@ header a:last-child{
 
 /*stream section*/
 .section-stream{
-    width: 50rem;
+    width: 32.5rem;
     margin: 0 auto;
-
-;
 }
 
 .album-cover {
-    width: 45rem;
+    width: 32rem;
     display: block;
     margin: auto;
+    border-radius: 0.5rem;
 }
 
 .stream-plataform {
@@ -64,12 +63,12 @@ header a:last-child{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.3rem auto;
-    height: 4.2rem;
-    width: 43rem;
-    border:1px solid var(--light-gray);
+    margin: 1rem auto;
+    height: 3.4rem;
+    width: 30rem;
+    border:0.1rem solid var(--light-gray);
     border-radius: 0.6rem;
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #404040;
     opacity: 0.8;
 }
