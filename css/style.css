@@ -73,5 +73,34 @@ header a:last-child{
     opacity: 0.8;
 }
 
+/*media query para tablets*/
+@media screen and (min-width: 767px){
+    .section-stream{
+        width: 76.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3.5rem;
+    }
+    .album-cover {
+        width: 37rem;
+    }
+    .stream-plataform {
+        margin-right: 2.5rem;
+    }
+}
+
+/*media query para laptop/PC*/
+@media screen and (min-width: 1023px){
+    .album-cover {
+        width: 43rem;
+    }
+    .stream-plataform {
+        margin: 1.2rem 2.5rem;
+        height: 4.2rem;
+        width: 45rem;
+    }
+}
+
 
 
