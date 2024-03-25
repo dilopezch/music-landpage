@@ -5,14 +5,13 @@
 
 :root{
     --main-font: "M PLUS Code Latin", monospace;
-    --main-color: #1D1D1D;
+    --section-dark-gray: #1D1D1D;
     --light-gray: #737373; /*font color*/
     --very-light-gray: #D9D9D9; /*icon color*/
 }
 
 html {
     font-family: var(--main-font);
-    background-color: var(--main-color);
     font-size: 62.5%;
 }
 
@@ -24,14 +23,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--main-color);
+    background-color: #0D0D0D;
     width: 100%;
-    height: 8rem;
+    height: 8.5rem;
+    opacity: 0.8;
 }
 
 header img {
     width: 12rem;
-    margin: 3rem;
+    margin-left: 3rem;
 }
 
 header a{
@@ -46,8 +46,10 @@ header a:last-child{
 
 /*stream section*/
 .section-stream{
-    width: 32.5rem;
+    width: 100%;
     margin: 0 auto;
+    background-color: var(--section-dark-gray);
+    padding: 3rem 0;
 }
 
 .album-cover {
@@ -76,14 +78,15 @@ header a:last-child{
 /*media query para tablets*/
 @media screen and (min-width: 767px){
     .section-stream{
-        width: 76.5rem;
+        width: 100%;;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 3.5rem;
+        
     }
     .album-cover {
         width: 37rem;
+        margin: 2.5rem;
     }
     .stream-plataform {
         margin-right: 2.5rem;
@@ -92,11 +95,15 @@ header a:last-child{
 
 /*media query para laptop/PC*/
 @media screen and (min-width: 1023px){
+    .section-stream {
+        width: 100%;;
+    }
     .album-cover {
         width: 43rem;
     }
     .stream-plataform {
         margin: 1.2rem 2.5rem;
+        font-size: 1.7rem;
         height: 4.2rem;
         width: 45rem;
     }
