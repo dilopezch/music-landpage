@@ -5,7 +5,9 @@
 
 :root{
     --main-font: "M PLUS Code Latin", monospace;
+    --header-light-black: #0D0D0D;
     --section-dark-gray: #1D1D1D;
+    --section-gray: #A09F9D;
     --light-gray: #737373; /*font color*/
     --very-light-gray: #D9D9D9; /*icon color*/
 }
@@ -23,7 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0D0D0D;
+    background-color: var(--header-light-black);
     width: 100%;
     height: 8.5rem;
     opacity: 0.8;
@@ -75,14 +77,54 @@ header a:last-child{
     opacity: 0.8;
 }
 
+/*Promo section*/
+.section-promo {
+    width: 100%;
+    background-color: var(--section-gray);
+}
+
+.promo-film {
+    display: flex;
+    justify-content: center;
+}
+
+.promo-film span {
+    font-size: 2rem;
+    margin: 5.5rem 0 1.5rem;
+    color: var(--header-light-black);
+}
+
+.promo-film iframe {
+    width:31rem;
+    height: 23rem;
+}
+
+.promo-schedule {
+    display: flex;
+    justify-content: center;
+}
+
+.promo-schedule span {
+    font-size: 2rem;
+    margin: 5.5rem 0 1.5rem;
+    color: var(--header-light-black);
+}
+
+.promo-schedule img {
+    width: 31rem;
+    margin-bottom: 2rem;
+}
+
+
+
 /*media query para tablets*/
 @media screen and (min-width: 767px){
+
     .section-stream{
         width: 100%;;
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
     .album-cover {
         width: 37rem;
@@ -91,10 +133,20 @@ header a:last-child{
     .stream-plataform {
         margin-right: 2.5rem;
     }
+
+    .promo-film iframe {
+        width:56rem;
+        height: 33rem;
+    }
+
+    .promo-schedule img {
+        width: 56rem;
+    }
 }
 
 /*media query para laptop/PC*/
 @media screen and (min-width: 1023px){
+
     .section-stream {
         width: 100%;;
     }
@@ -106,6 +158,21 @@ header a:last-child{
         font-size: 1.7rem;
         height: 4.2rem;
         width: 45rem;
+    }
+
+    
+    .promo-film span {
+        font-size: 2.8rem;
+    }
+    .promo-film iframe {
+        width:70rem;
+        height: 35rem;
+    }
+    .promo-schedule span {
+        font-size: 2.8rem;
+    }
+    .promo-schedule img {
+        width: 70rem;
     }
 }
 
