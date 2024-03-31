@@ -88,8 +88,9 @@ header a:last-child{
     justify-content: center;
 }
 
-.promo-film span {
-    font-size: 2rem;
+.promo-film h2 {
+    font: 3rem lighter;
+    font-family: var(--main-font);
     margin: 5.5rem 0 1.5rem;
     color: var(--header-light-black);
 }
@@ -105,7 +106,8 @@ header a:last-child{
 }
 
 .promo-schedule span {
-    font-size: 2rem;
+    font: 3rem lighter;
+    font-family: var(--main-font);
     margin: 5.5rem 0 1.5rem;
     color: var(--header-light-black);
 }
@@ -160,7 +162,6 @@ header a:last-child{
         width: 45rem;
     }
 
-    
     .promo-film span {
         font-size: 2.8rem;
     }
