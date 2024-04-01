@@ -17,7 +17,7 @@ html {
     font-size: 62.5%;
 }
 
-html a{
+html a {
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ header img {
     margin-left: 3rem;
 }
 
-header a{
+header a {
     color: var(--light-gray);
     padding: 1rem;
     font-size: 1.5rem;
@@ -44,6 +44,27 @@ header a{
 
 header a:last-child{
     margin-right: 3rem;
+}
+
+main {
+    background-color: var(--section-gray);
+    width: 100%;
+}
+
+h2 {
+    font: 3rem lighter;
+    font-family: var(--main-font);
+    margin: 5.5rem 0 1.5rem;
+    color: var(--header-light-black);
+    text-align: center;
+}
+
+h3 {
+    font: 2rem lighter;
+    font-family: var(--main-font);
+    margin: 0.5rem 0 1.5rem;
+    color: var(--header-light-black);
+    text-align: center;
 }
 
 /*stream section*/
@@ -78,21 +99,9 @@ header a:last-child{
 }
 
 /*Promo section*/
-.section-promo {
-    width: 100%;
-    background-color: var(--section-gray);
-}
-
 .promo-film {
     display: flex;
     justify-content: center;
-}
-
-.promo-film h2 {
-    font: 3rem lighter;
-    font-family: var(--main-font);
-    margin: 5.5rem 0 1.5rem;
-    color: var(--header-light-black);
 }
 
 .promo-film iframe {
@@ -105,16 +114,17 @@ header a:last-child{
     justify-content: center;
 }
 
-.promo-schedule h2 {
-    font: 3rem lighter;
-    font-family: var(--main-font);
-    margin: 5.5rem 0 1.5rem;
-    color: var(--header-light-black);
-}
-
 .promo-schedule img {
     width: 31rem;
     margin-bottom: 2rem;
+}
+
+
+/*Media section*/
+.pictures img{
+    display: block;
+    width: 28rem;
+    margin: 1rem auto;
 }
 
 
