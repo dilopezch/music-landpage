@@ -17,10 +17,6 @@ html {
     font-size: 62.5%;
 }
 
-html a {
-    text-decoration: none;
-}
-
 body {
     padding-top: 8.5rem;
 }
@@ -56,6 +52,14 @@ header a:last-child{
 main {
     background-color: var(--section-gray);
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#D9D9D9;
 }
 
 h2 {
@@ -103,6 +107,10 @@ h3 {
     padding: 0.8rem;
     background-color: #404040;
     opacity: 0.8;
+}
+
+.stream-plataform:hover {
+    background: var(--light-gray);
 }
 
 /*Promo section*/
