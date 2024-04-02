@@ -127,6 +127,12 @@ h3 {
     margin: 1rem auto;
 }
 
+.videos iframe {
+    display: block;
+    margin: 1rem auto;
+    width:31rem;
+    height: 23rem;
+}
 
 
 /*media query para tablets*/
@@ -150,9 +156,16 @@ h3 {
         width:56rem;
         height: 33rem;
     }
-
     .promo-schedule img {
         width: 56rem;
+    }
+
+    .pictures img {
+        width: 38rem;
+    }
+    .videos iframe {
+        width:56rem;
+        height: 33rem;
     }
 }
 
@@ -185,7 +198,20 @@ h3 {
     .promo-schedule img {
         width: 70rem;
     }
+
+    .pictures {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pictures img { 
+        width: 28rem;
+        margin: 1rem 3rem;
+    }
+    .promo-film iframe {
+        width:70rem;
+        height: 35rem;
+    }
+    
 }
-
-
 
