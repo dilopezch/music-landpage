@@ -21,6 +21,10 @@ html a {
     text-decoration: none;
 }
 
+body {
+    padding-top: 8.5rem;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -29,6 +33,9 @@ header {
     width: 100%;
     height: 8.5rem;
     opacity: 0.8;
+    left: 0;
+	top: 0;
+    position: fixed;
 }
 
 header img {
