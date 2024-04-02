@@ -106,7 +106,7 @@ h3 {
 
 .promo-film iframe {
     width:31rem;
-    height: 23rem;
+    height: 18rem;
 }
 
 .promo-schedule {
@@ -131,9 +131,24 @@ h3 {
     display: block;
     margin: 1rem auto;
     width:31rem;
-    height: 23rem;
+    height: 18rem;
 }
 
+footer {
+    /*width: 100%;*/
+    height: 4rem;
+    background-color: var(--section-dark-gray);
+    font-size: 0.7rem;
+    color: var(--very-light-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 1rem 1rem;
+}
+
+footer img {
+    width: 16px;
+}
 
 /*media query para tablets*/
 @media screen and (min-width: 767px){
@@ -166,6 +181,15 @@ h3 {
     .videos iframe {
         width:56rem;
         height: 33rem;
+    }
+
+    footer {
+        height: 5rem;
+        font-size: 1rem;
+    }
+
+    footer img {
+        width: 24px;
     }
 }
 
@@ -211,6 +235,15 @@ h3 {
     .promo-film iframe {
         width:70rem;
         height: 35rem;
+    }
+
+    footer {
+        height: 5.5rem;
+        font-size: 1.2rem;
+    }
+
+    footer img {
+        width: 32px;
     }
     
 }
