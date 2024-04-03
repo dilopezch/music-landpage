@@ -91,7 +91,13 @@ h3 {
     display: block;
     margin: auto;
     border-radius: 0.5rem;
+    transition: 0.3s;
 }
+
+.album-cover:hover {
+    opacity: 0.8;
+}
+
 
 .stream-plataform {
     color: var(--very-light-gray);
@@ -107,6 +113,7 @@ h3 {
     padding: 0.8rem;
     background-color: #404040;
     opacity: 0.8;
+    transition: 0.3s;
 }
 
 .stream-plataform:hover {
@@ -122,6 +129,11 @@ h3 {
 .promo-film iframe {
     width:31rem;
     height: 18rem;
+    transition: 0.3s;
+}
+
+.promo-film iframe:hover {
+    opacity: 0.7;
 }
 
 .promo-schedule {
@@ -134,12 +146,17 @@ h3 {
     margin-bottom: 2rem;
 }
 
-
 /*Media section*/
 .pictures img{
     display: block;
     width: 28rem;
     margin: 1rem auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pictures img:hover {
+    opacity: 0.7;
 }
 
 .videos iframe {
@@ -149,9 +166,14 @@ h3 {
     height: 18rem;
 }
 
+.videos iframe:hover {
+    opacity: 0.7;
+}
+
 .button {
     position:relative;
     margin-top: 5rem;
+    transition: 0.3s;
 }
 
 .btn-up {
